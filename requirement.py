@@ -1,4 +1,3 @@
-tkinter
 matplotlib>=3.5.0
 pandas>=1.3.0
 Pillow>=8.0.0
