@@ -1,6 +1,7 @@
 class BudgetFrame:
-    def __init__(self, master):
+    def __init__(self, master, on_update=None):
         self.master = master
+        self.on_update = on_update
         self.frame = tk.Frame(master)
         self.frame.pack()
 
