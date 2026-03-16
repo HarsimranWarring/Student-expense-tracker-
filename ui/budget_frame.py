@@ -1,3 +1,5 @@
+import tkinter as tk
+
 class BudgetFrame:
     def __init__(self, master, on_update=None):
         self.master = master
